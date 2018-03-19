@@ -1,0 +1,119 @@
+@font-face {
+	font-family: 'roboto';
+	src: url('Roboto-Regular.ttf') format('ttf');
+}
+@font-face {
+    font-family: 'Arial-Rounded-MT-Bold';
+    src: url('Arial-Rounded-MT-Bold.ttf');
+}
+body {
+	font-family: 'roboto', sans-serif;
+	margin:      -8px;
+	font-size:   .8rem;
+	color: 		 #8D8D8D;
+}
+.card {
+    width:            300px;
+    height:           310px;
+    background-color: white;
+    position:         absolute;
+    top:              0;
+    bottom:           0;
+    left:             0;
+    right:            0;
+    margin:           auto;
+    box-shadow:       0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-top:      52px;
+    padding-bottom:   52px;
+    padding-left:     52px;
+    padding-right:    52px;
+}
+.circle {
+	position: absolute;
+	left:                  0;
+    right:                 0;
+    top:                   -50px;
+    margin:                auto;
+    width:                 100px;
+    height:                100px;
+    border-radius:         50%;
+    -moz-border-radius:    50%;
+    -webkit-border-radius: 50%;
+    background-color:      #3498DB;
+}
+
+h1 {
+	position:     relative;
+	font-size:    1.8rem;
+	text-align:   center;
+	font-weight:  normal;
+	margin-bottom: 0;
+	color: 		   #1C0E3C;
+}
+
+.k {
+	font-family: 'Arial-Rounded-MT-Bold';
+	position:    absolute;
+	left:        25px;
+    right:       0;
+    top:         0;
+    margin:      auto;
+    font-size:   5.5rem;
+    color:       white;
+    font-weight: bold;
+}
+
+.login {
+	border-top:     none;
+	border-left:    none;
+	border-right:   none;
+	padding-left:   35px;
+	padding-bottom: 10px;
+	width:          100%;
+	font-weight: 	bold;
+	transition: padding-bottom .1s;
+}
+.login:focus {
+	outline: none;
+	color:   #1C0E3C;
+}
+.filled {
+	padding-bottom: 3px;
+}
+.input-icon{
+  position:  absolute;
+  left:      3px;
+  top:       calc(50% - .8em);
+  font-size: 1.1rem;
+}
+.inputWrapper {
+  position:      relative;
+  margin-bottom: 30px;
+}
+.inputBlock {
+	padding-top: 39px;
+}
+.flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.connexionBlock {
+	padding-top: 39px;
+	text-align:  center;
+}
+button {
+	padding-top:      13px;
+	padding-bottom:   13px;
+	padding-left:     65px;
+	padding-right:    65px;
+	background-color: #3498DB;
+	border:			  none;
+	border-radius:    3px;
+	font-weight: 	  bold;
+	color: 			  white;
+	font-size: 	      1rem;
+}
+button:hover {
+	cursor: pointer;;
+}
